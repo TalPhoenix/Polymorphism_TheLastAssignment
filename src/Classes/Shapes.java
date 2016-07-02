@@ -13,8 +13,8 @@ import java.awt.Graphics;
  * @author taloh
  */
 public class Shapes {
-    int Width;
-    int Height;
+    int Width = 0;
+    int Height = 0;
     
     public Shapes(int w, int h){
         Width = w;
@@ -22,6 +22,6 @@ public class Shapes {
     }
     
     public void Draw(Graphics g, int x, int y){
-        g.setColor(Color.CYAN);
+        
     }
 }

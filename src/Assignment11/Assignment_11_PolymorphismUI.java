@@ -89,6 +89,7 @@ public class Assignment_11_PolymorphismUI extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Papyrus", 0, 12)); // NOI18N
         jLabel5.setText("Height:");
 
+        m_tfWidth.setText("0");
         m_tfWidth.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 m_tfWidthActionPerformed(evt);
@@ -98,6 +99,7 @@ public class Assignment_11_PolymorphismUI extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Papyrus", 0, 14)); // NOI18N
         jLabel6.setText("What kind of shape do you want to draw?");
 
+        m_tfHeight.setText("0");
         m_tfHeight.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 m_tfHeightActionPerformed(evt);
